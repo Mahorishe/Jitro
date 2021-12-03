@@ -1,0 +1,222 @@
+.container
+    max-width: 960px
+    margin: 0 auto
+    padding: 0 10px
+.container.white-border
+    background-color: #fdfdfd
+    position: relative
+    z-index: 3
+.header__inner
+    display: flex
+    justify-content: space-between
+    align-items: center
+    min-height: 78px
+.header__logo a
+    font-size: 36px
+    color: #e8603c
+    & span
+        color: #f3af9d
+.header__menu li + li
+    margin-left: 28px
+.header__menu a
+    font-size: 16px
+    color: #b9b9b9
+    &:hover
+        color: #e8663c
+.slider
+    position: relative
+    z-index: 2
+    &::before
+        content: ''
+        position: absolute
+        top: 0
+        width: 100%
+        height: 60px
+        background-color: #f3af9d
+        z-index: 0
+.prev,
+.next
+    position: absolute
+    top: 158px
+    width: 35px
+    height: 52px
+    z-index: 2
+    cursor: pointer
+.prev
+    left: 26px
+.next
+    transform: rotate(180deg)
+    right: 26px
+.slider__item
+    width: 100%
+    height: auto
+    background-color: #e8663c
+.slider__text
+    position: absolute
+    bottom: 35px
+    left: 35px
+    max-width: 413px
+    height: 124px
+    background-color: rgba(232,102,60,.8)
+    color: #fff
+    padding: 20px 21px 25px 18px
+.slider__title
+    margin-bottom: 20px
+    font-size: 18px
+.slider__descr
+    font-family: 'Helvetica Neue', cursive
+    font-size: 12px
+.slider__inner
+    overflow: hidden
+.slider__items
+    margin-bottom: 20px
+    max-width: 940px
+    width: 100%
+.slider__item img
+    max-width: 100%
+.slider__mini-item
+    max-width: 140px
+.slider__mini-items .slick-list
+    padding: 0 !important
+    margin-left: -10px
+    margin-right: -10px
+.slider__mini-items .slick-track
+    text-align: center
+.slider__mini-items .slick-slide
+    cursor: pointer
+.posts
+    padding: 40px 0 45px
+.posts__inner
+    display: flex
+    justify-content: space-between
+.posts__item
+    max-width: 285px
+.posts__title,
+.works__title
+    padding-left: 70px
+    padding-right: 50px
+    margin-bottom: 35px
+    font-size: 18px
+    line-height: 24px
+    color: #e8663c
+    text-transform: uppercase
+    position: relative
+    &::before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+.posts__title-first::before
+    background-image: url('../img/posts/post-1.svg')
+    width: 46px
+    height: 46px
+.posts__title-second::before
+    background-image: url('../img/posts/post-2.svg')
+    width: 49px
+    height: 41px
+.posts__title-thrid::before
+    background-image: url('../img/posts/post-3.svg')
+    width: 42px
+    height: 40px
+.posts__descr
+    font-size: 12px
+    margin-bottom: 20px
+    letter-spacing: 100%
+    color: #414141
+.posts__link a
+    padding: 9px 15px
+    background-color: #e8663c
+    color: #fff
+.works
+    padding-bottom: 40px
+.works__top
+    display: flex
+    justify-content: space-between
+.works__title
+    padding: 0
+    margin-bottom: 20px
+.works__line
+    width: 845px
+    max-width: 100%
+    height: 19px
+    background: url('../img/works/Line.png')
+.works__inner
+    overflow: hidden
+.works__inner-item
+    text-align: center
+.works__item-box
+    display: inline-block
+.works__inner .slick-list
+    margin-left: -8px
+    margin-right: -8px
+.works__item-info
+    text-align: left
+    border: 1px solid #dbdbdb
+    border-top: none
+    background-color: #fff
+    padding: 12px 13px 13px
+    font-size: 16px
+    line-height: 18px
+    color: #b9b9b9
+.works__item-info span
+    display: block
+    font-size: 11px
+    line-height: 18px
+    color: #e8663c
+.footer
+    position: relative
+    font-size: 12px
+    z-index: 2
+    &::before
+        content: ''
+        position: absolute
+        top: 0
+        width: 100%
+        height: 263px
+        background-color: #f3af9d
+        z-index: 0
+.footer__inner
+    padding: 35px 40px 30px 30px
+    background-color: #e8663c
+    display: flex
+    justify-content: space-between
+    min-height: 263px
+    color: #fff
+.footer__item-about
+    width: 265px
+.footer__title
+    font-size: 20px
+    margin-bottom: 26px
+.footer__descr,
+.footer__review,
+.footer__contact
+    font-family: 'Helvetica Heue', sans-serif
+.footer__item-widget
+    width: 220px
+.footer__list li
+    margin-bottom: 15px
+.footer__review span,
+.footer__review a
+    color: #f3b29d
+.footer__list span
+    display: block
+    padding-top: 5px
+.footer__item-contact
+    width: 260px
+.footer__contact
+    padding-top: 15px
+.footer__contact span
+    display: block
+.footer__social
+    max-width: 185px
+    padding-top: 17px
+    display: flex
+    justify-content: space-between
+.header__menu-btn
+    width: 30px
+    display: none
+.header__menu-row
+    width: 100%
+    height: 4px
+    margin-bottom: 4px
+    background-color: #000
